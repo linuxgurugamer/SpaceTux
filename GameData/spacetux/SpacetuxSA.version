@@ -1,12 +1,12 @@
 {
 	"NAME":"Spacetux",
-	"URL":"http://ksp-avc.cybutek.net/version.php?id=135",
-        "DOWNLOAD":"https://kerbalstuff.com/mod/656/Spacetux%20Shared%20Assets"
+	"URL":"http://ksp-avc.cybutek.net/version.php?id=139",
+        "DOWNLOAD":"https://kerbalstuff.com/mod/656/Spacetux%20Shared%20Assets/download/0.3.2",
 	"VERSION":
 	{
 		"MAJOR":0,
 		"MINOR":3,
-		"PATCH":1,
+		"PATCH":2,
 		"BUILD":0
 	},
 	"KSP_VERSION":

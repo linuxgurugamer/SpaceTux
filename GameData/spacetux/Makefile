@@ -19,10 +19,10 @@ help:
 	@echo "make release      to build a new tarfile"
 	@echo "make version      to increment the version and set build to 0"
 
-install:	$(BUILD_NUMBER_FILE)
+install:	
 	./update.sh install CHANGELOG License.txt Agencies Flags SpacetuxSA.version spacetuxgroup.cfg
 
-release:	$(BUILD_NUMBER_FILE)
+release:
 	./update.sh release $(OBJECTS)
 
 version:	$(VERSION_NUMBER_FILE) 
