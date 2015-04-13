@@ -1,7 +1,7 @@
 #!/bin/bash
 
 releasedir=$HOME/release
-installdir="$HOME/install/Gamedata/spacetux $HOME/install/GameData/ContractPacks/SpacetuxSA"
+installdir="$HOME/install/Gamedata/spacetux $HOME/install/GameData/ContractPacks/Spacetux/SharedAssets"
 mkdir -p $releasedir
 
 major=0
@@ -21,15 +21,11 @@ fi
 if [ "$1" = "install" ]; then
 	shift
 	for i in $installdir; do
-echo $i
 		rm -fr $i
 		mkdir -p $i
-ls -ld $i
 		cp -r $* $i
-ls -l $i
-cd $i
-pwd
 	done
+	touch $HOME/install/GameData/ContractPacks/Spacetux/SharedAssets/placeholder
 	exit
 fi
 
@@ -45,5 +41,5 @@ fi
 
 
 cd $HOME/install
-zip -9r ${releasedir}/SpacetuxSA-${major}.${minor}.${patch}.zip GameData/spacetux
+zip -9r ${releasedir}/SpacetuxSA-${major}.${minor}.${patch}.zip GameData/spacetux GameData/ContractPacks/Spacetux/SharedAssets/placeholder
 
