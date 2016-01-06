@@ -25,6 +25,10 @@ if [ "$1" = "install" ]; then
 		mkdir -p $i
 		cp -r $* $i
 	done
+	rm  $HOME/install/GameData/ContractPacks/Spacetux/SharedAssets/Agencies/spacetux.cfg
+	mv $HOME/install/GameData/ContractPacks/Spacetux/SharedAssets/Agencies/spacetux-sharedassets  $HOME/install/GameData/ContractPacks/Spacetux/SharedAssets/Agencies/spacetux.cfg
+
+
 	touch $HOME/install/GameData/ContractPacks/Spacetux/SharedAssets/placeholder
 	exit
 fi
