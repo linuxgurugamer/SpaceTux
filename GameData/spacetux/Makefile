@@ -9,7 +9,7 @@ BUILD_NUMBER_FILE=build-number.txt
 
 AGENCY=spacetux
 
-OBJECTS=CHANGELOG License.txt Agencies/spacetux.cfg Agencies/spacetux.png Agencies/spacetux_sm.png Flags/spacetux_flag.png spacetuxgroup.cfg
+OBJECTS=CHANGELOG License.txt Agencies/spacetux.cfg Agencies/spacetux.png Agencies/spacetux_sm.png Flags/spacetux_flag.png 
 
 
 
@@ -20,10 +20,10 @@ help:
 	@echo "make version      to increment the version and set build to 0"
 
 install:	
-	./update.sh install CHANGELOG License.txt Agencies Flags SpacetuxSA.version spacetuxgroup.cfg
+	./update.sh install 
 
 release:
-	./update.sh release $(OBJECTS)
+	./update.sh release
 
 version:	$(VERSION_NUMBER_FILE) 
 	

@@ -44,7 +44,6 @@ copy License.txt %HOMEDIR%\install\Gamedata\Spacetux\SharedAssets
 xcopy Agencies %HOMEDIR%\install\Gamedata\Spacetux\SharedAssets\Agencies
 xcopy Flags %HOMEDIR%\install\Gamedata\Spacetux\SharedAssets\Flags
 copy SpacetuxSA.version %HOMEDIR%\install\Gamedata\Spacetux\SharedAssets
-copy spacetuxgroup.cfg  %HOMEDIR%\install\Gamedata\Spacetux\SharedAssets
 
 pause
 
