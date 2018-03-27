@@ -1,13 +1,19 @@
 {
 	"NAME":"Spacetux",
-	"URL":"http://ksp-avc.cybutek.net/version.php?id=139",
-        "DOWNLOAD":"https://kerbalstuff.com/mod/656/Spacetux%20Shared%20Assets/download/",
+	"URL":"https://raw.githubusercontent.com/linuxgurugamer/SpaceTuxSA/master/SpaceTuxSA.version",
+	"DOWNLOAD": "https://github.com/linuxgurugamer/SpaceTuxSA/releases",
+    "GITHUB" :
+    {
+        "USERNAME" : "linuxgurugamer",
+        "REPOSITORY" : "SpaceTuxSA"
+    },
+
 	"VERSION":
 	{
 		"MAJOR":0,
 		"MINOR":3,
 		"PATCH":12,
-		"BUILD":2
+		"BUILD":3
 	},
 	"KSP_VERSION":
 	{
