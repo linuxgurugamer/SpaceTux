@@ -1,11 +1,11 @@
 {
 	"NAME":"Spacetux",
-	"URL":"https://raw.githubusercontent.com/linuxgurugamer/SpaceTux/master/SpacetuxSA.version",
-	"DOWNLOAD": "https://github.com/linuxgurugamer/SpaceTux/releases",
+	"URL":"https://raw.githubusercontent.com/linuxgurugamer/SpaceTuxSA/master/SpaceTuxSA.version",
+	"DOWNLOAD": "https://github.com/linuxgurugamer/SpaceTuxSA/releases",
     "GITHUB" :
     {
         "USERNAME" : "linuxgurugamer",
-        "REPOSITORY" : "SpaceTux"
+        "REPOSITORY" : "SpaceTuxSA"
     },
 
 	"VERSION":
