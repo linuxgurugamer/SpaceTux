@@ -1,0 +1,36 @@
+{
+	"NAME":"Spacetux",
+	"URL":"https://raw.githubusercontent.com/linuxgurugamer/SpaceTux/master/SpacetuxSA.version",
+	"DOWNLOAD": "https://github.com/linuxgurugamer/SpaceTux/releases",
+    "GITHUB" :
+    {
+        "USERNAME" : "linuxgurugamer",
+        "REPOSITORY" : "SpaceTux"
+    },
+
+	"VERSION":
+	{
+		"MAJOR":0,
+		"MINOR":3,
+		"PATCH":12,
+		"BUILD":2
+	},
+	"KSP_VERSION":
+	{
+		"MAJOR":1,
+		"MINOR":1,
+		"PATCH":3
+	},
+	"KSP_VERSION_MIN":
+	{
+		"MAJOR":1,
+		"MINOR":1,
+		"PATCH":3
+	},
+	"KSP_VERSION_MAX":
+	{
+		"MAJOR":1,
+		"MINOR":4,
+		"PATCH":99
+	}
+}
