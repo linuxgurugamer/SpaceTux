@@ -1,6 +1,6 @@
 {
 	"NAME":"Spacetux",
-	"URL":"https://raw.githubusercontent.com/linuxgurugamer/SpaceTuxSA/master/SpaceTuxSA.version",
+	"URL":"http://ksp.spacetux.net/avc/SpaceTuxSA",
 	"DOWNLOAD": "https://github.com/linuxgurugamer/SpaceTuxSA/releases",
     "GITHUB" :
     {
@@ -13,7 +13,7 @@
 		"MAJOR":0,
 		"MINOR":3,
 		"PATCH":12,
-		"BUILD":3
+		"BUILD":4
 	},
 	"KSP_VERSION":
 	{
@@ -30,7 +30,7 @@
 	"KSP_VERSION_MAX":
 	{
 		"MAJOR":1,
-		"MINOR":4,
+		"MINOR":99,
 		"PATCH":99
 	}
 }

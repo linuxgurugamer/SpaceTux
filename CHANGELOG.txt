@@ -1,10 +1,13 @@
 Initial Release
 
-3.0	Updated images to make them clearer
+0.3.0	Updated images to make them clearer
 
-3.12.2
+0.3.12.2
 	updated for 1.4.1
 	Updated build to use jenkins
 
-3.12.3
+0.3.12.3
 	Removed unnecessary files
+	
+0.3.12.4
+	Version bump for 1.5-1.9
