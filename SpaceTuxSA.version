@@ -1,36 +1,25 @@
 {
-	"NAME":"Spacetux",
-	"URL":"http://ksp.spacetux.net/avc/SpaceTuxSA",
-	"DOWNLOAD": "https://github.com/linuxgurugamer/SpaceTuxSA/releases",
-    "GITHUB" :
-    {
-        "USERNAME" : "linuxgurugamer",
-        "REPOSITORY" : "SpaceTuxSA"
-    },
-
-	"VERSION":
-	{
-		"MAJOR":0,
-		"MINOR":3,
-		"PATCH":12,
-		"BUILD":4
-	},
-	"KSP_VERSION":
-	{
-		"MAJOR":1,
-		"MINOR":1,
-		"PATCH":3
-	},
-	"KSP_VERSION_MIN":
-	{
-		"MAJOR":1,
-		"MINOR":1,
-		"PATCH":3
-	},
-	"KSP_VERSION_MAX":
-	{
-		"MAJOR":1,
-		"MINOR":99,
-		"PATCH":99
-	}
+  "NAME": "Spacetux",
+  "URL": "http://ksp.spacetux.net/avc/SpaceTuxSA",
+  "DOWNLOAD": "https://github.com/linuxgurugamer/SpaceTuxSA/releases",
+  "GITHUB": {
+    "USERNAME": "linuxgurugamer",
+    "REPOSITORY": "SpaceTuxSA"
+  },
+  "VERSION": {
+    "MAJOR": 0,
+    "MINOR": 3,
+    "PATCH": 12,
+    "BUILD": 4
+  },
+  "KSP_VERSION": {
+    "MAJOR": 1,
+    "MINOR": 1,
+    "PATCH": 3
+  },
+  "KSP_VERSION_MIN": {
+    "MAJOR": 1,
+    "MINOR": 1,
+    "PATCH": 3
+  }
 }
