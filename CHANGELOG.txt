@@ -1,4 +1,4 @@
-Initial Release
+ChangeLog
 
 0.3.0	Updated images to make them clearer
 
@@ -11,3 +11,6 @@ Initial Release
 	
 0.3.12.4
 	Version bump for 1.5-1.9
+
+0.3.13
+	Updated for KSP 1.8
