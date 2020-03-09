@@ -14,3 +14,7 @@ ChangeLog
 
 0.3.13
 	Updated for KSP 1.8
+
+0.3.13.1
+	Added title to agent config
+
